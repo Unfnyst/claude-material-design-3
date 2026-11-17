@@ -1,0 +1,25 @@
+{
+  "name": "material-design-3",
+  "displayName": "Material Design 3",
+  "version": "0.1.0",
+  "description": "Design and build interfaces with Material Design 3 (Material You) and M3 Expressive: dynamic colour from a seed, the type scale, shape, elevation, motion physics, adaptive layout, component specs, and a working theme generator.",
+  "author": {
+    "name": "Unfnyst"
+  },
+  "homepage": "https://github.com/Unfnyst/claude-material-design-3",
+  "repository": "https://github.com/Unfnyst/claude-material-design-3",
+  "license": "Apache-2.0",
+  "keywords": [
+    "material design",
+    "material design 3",
+    "material you",
+    "m3",
+    "m3 expressive",
+    "design system",
+    "design tokens",
+    "jetpack compose",
+    "tailwind",
+    "ui",
+    "android"
+  ]
+}

@@ -1,0 +1,19 @@
+# Dependencies — the theme generator's one dependency is installed by the user,
+# never vendored into this repository.
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build output from the theme generator
+*.plugin
+m3-theme.css
+theme.json
+Color.kt
+
+# Editor and OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

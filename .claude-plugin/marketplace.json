@@ -1,0 +1,13 @@
+{
+  "name": "unfnyst",
+  "description": "Plugins by Unfnyst. Currently: Material Design 3 — design and build interfaces with Material You and M3 Expressive.",
+  "owner": {
+    "name": "Unfnyst"
+  },
+  "plugins": [
+    {
+      "name": "material-design-3",
+      "source": "./"
+    }
+  ]
+}
