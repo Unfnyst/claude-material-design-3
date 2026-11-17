@@ -10,6 +10,11 @@ breakpoints, component specifications, and an accessibility audit. It includes
 a working theme generator that produces exact token values rather than
 approximations.
 
+**Works in Claude, Claude Cowork, and Claude Code.** It's a standard plugin
+with no surface-specific assumptions, so any of them will load it. The design
+guidance is identical everywhere; the only difference is that the theme
+generator needs a shell with Node available to run.
+
 ## What's in it
 
 One skill, `material-design-3`, with a lean body and detail loaded on demand:
@@ -29,6 +34,8 @@ One skill, `material-design-3`, with a lean body and detail loaded on demand:
 
 ## Install
 
+**Claude Code**, from your shell:
+
 ```bash
 claude plugin marketplace add Unfnyst/claude-material-design-3
 claude plugin install material-design-3@unfnyst
@@ -39,6 +46,9 @@ Or in one step from inside a session, on Claude Code v2.1.275 or later:
 ```
 /plugin install material-design-3 --marketplace Unfnyst/claude-material-design-3
 ```
+
+**Claude and Claude Cowork**: add the marketplace from a session the same way,
+with `/plugin install material-design-3 --marketplace Unfnyst/claude-material-design-3`.
 
 To try it without installing, clone the repository and start Claude Code with
 `claude --plugin-dir ./claude-material-design-3`.
