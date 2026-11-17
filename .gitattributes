@@ -1,0 +1,11 @@
+# Normalise all text to LF inside the repository, whatever the contributor's
+# platform. Without this, a Windows checkout can commit CRLF.
+* text=auto
+
+# The theme generator is executed directly and carries a shebang. CRLF would
+# make it fail on macOS and Linux with "bad interpreter", so pin it to LF in
+# the working tree as well as in the repository.
+*.mjs text eol=lf
+
+# Never touch binaries.
+*.png binary
